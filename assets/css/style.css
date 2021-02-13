@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+aside{
+    float: left;
+    width: 30%;
+    background-color: blueviolet;
+    height:100vh;
+    color: rgb(214, 214, 214);
+}
+
+.sidebar {
+    padding: 2%;
+}
+
+main{
+    /* padding: 2% 2%; */
+    float: right;
+    width: 70%;
+}
+section{
+    padding: 0 0 2% 0;
+}
+
+.title{
+    padding: 2%;
+    background-color: darkviolet; 
+    color: rgb(255, 255, 255);
+}
+
+.images {
+    height: 4%;
+}
+
+img{
+    float: left;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+    aside {
+        width: 100%;
+    }
+    body {
+        font-size: small;
+    }
+    .title{
+        background-color: #fff; 
+    }
+}
